@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/logo.png" width="250px"></img>
+  <img src="assets/logo.png" width="250px"></img>
 </p>
 
 # PixMate
@@ -48,9 +48,9 @@ flowchart TD
 To draw our pixel art, we'll be using lots of loops! Today's deep dive is all
 about loops, so let's get into it.
 
-### `while` loops
+### Basic loops
 
-1. Read the docs on [while loops]().
+1. Read the docs on [basic loops]().
 
 1. Complete Exercise 1a:
 
@@ -65,21 +65,19 @@ about loops, so let's get into it.
 
 1. Do the same for Exercise 1b.
 
-### `for` loops
+### Loop control flow
 
-1. Read the docs on [for loops]().
-
-1. Solve, commit and push Exercise 2a.
-
-1. Solve, commit and push Exercise 2b.
-
-### Common problems with loops
-
-1. Read the docs on [common problems using loops]().
+1. Read the docs on [control flow]().
 
 1. Solve, commit and push Exercise 2a.
 
 1. Solve, commit and push Exercise 2b.
+
+### Applied iteration
+
+1. Read the docs on [applied iteration]().
+
+1. Solve, commit and push Exercise 3.
 
 ## Moving on
 
