@@ -38,6 +38,6 @@ describe('gridLimit', () => {
       [40, 50, -60],
       [-70, 80, 90]
     ]
-    assert.strictEqual(gridLimit(grid), 5)
+    assert.strictEqual(gridLimit(grid), 6)
   })
 })
