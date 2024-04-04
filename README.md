@@ -26,7 +26,7 @@ concept: loops.
 
 1. Clone the repo so you have it locally.
 
-1. Run `npm init` to install the dependencies.
+1. Run `npm install` to install the dependencies.
 
 With all this done, you're ready for the deep dive!
 
