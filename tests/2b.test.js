@@ -23,4 +23,8 @@ describe('stepDown', () => {
   it('should handle arrays where the first two elements satisfy the condition', () => {
     assert.strictEqual(stepDown([3, 2, 4, 5, 6]), 1)
   })
+
+  it('should return the first index, and not subsequent indicies', () => {
+    assert.strictEqual(stepDown([5, 4, 3, 2, 1]), 1)
+  })
 })
