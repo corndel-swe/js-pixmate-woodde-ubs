@@ -1,4 +1,4 @@
-// https://tech-docs.corndel.com/js/nested-loops.html
+// https://tech-docs.corndel.com/js/nested-loops. html
 
 /**
  * Given a grid of numbers (an array of arrays),
@@ -17,4 +17,19 @@
  */
 export function gridLimit(grid) {
   // TODO
+
+  let count = 0
+  // outer loop
+  for (let i = 0; i < grid.length; i++) {
+    // inner loop
+    for (let j = 0; j < grid[i].length; j++) {
+      if (grid[i][j] > 10) {
+        count = count + 1
+      }
+    }
+  }
+
+
+  return count
+  console.log(count)
 }

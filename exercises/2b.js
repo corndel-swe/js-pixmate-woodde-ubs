@@ -17,4 +17,21 @@
  */
 export function stepDown(numbers) {
   // TODO
+  // 1. look through the list
+  // 2. for each number:
+  //  a. is it smaller than the ones before it?
+  //  b. if so:
+  //    i. that's the number we're looking for! return its index
+  //  c. otherwise:
+  //    i. try the next number
+  // 3. We've gone through all the numbers! Return -1
+
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] < numbers[i - 1]) {
+      return i // returns the index value
+
+    }
+  }
+
+  return -1
 }

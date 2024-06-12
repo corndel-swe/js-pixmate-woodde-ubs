@@ -13,4 +13,22 @@
  */
 export function addEven(n) {
   // TODO
+  //Initiate a counter
+  let i = 1
+  //Initiate a sum variable
+  let sum = 0
+  // Count from 1 to n
+  while (i <= n) {
+    // For each number
+    // check if it is even
+    if (i % 2 == 0) {
+      // add it to the sum
+      sum += i
+    }
+   // i + 1 - increment it by 1 --> same as i += 1 or i++ increments i by 1
+    i++
+  }
+  // return a sum
+  return sum
+
 }
