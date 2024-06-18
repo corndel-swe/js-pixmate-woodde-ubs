@@ -12,4 +12,12 @@
  */
 export function sumArray(arr) {
   // TODO
+  let total = 0
+
+  for (let n = 0; n < arr.length; n++) {
+    total += arr[n] // n - refers to one of the things in the array
+  }
+ 
+  return total
+  console.log(total)
 }
