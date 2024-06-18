@@ -1,5 +1,5 @@
 const width = 5
-const height = 7
+const height = 5
 
 // make an outer loop for the rows
 for (let row = 0; row < height; row++) {
